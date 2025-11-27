@@ -79,6 +79,11 @@ public class TestLeaf {
 				return driver.findElement(By.xpath("locator"));
 			}
 		});
+		
+		
+		//Function function = new Function();
+		
+		
 		RemoteWebDriver remoteDriver = (RemoteWebDriver)driver;
 		File fileSrc = remoteDriver.getScreenshotAs(OutputType.FILE);
 		File fileDest = new File("./screenshots/driver.png");
