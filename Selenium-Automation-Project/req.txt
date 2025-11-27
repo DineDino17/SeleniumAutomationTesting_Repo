@@ -1,0 +1,2 @@
+Eclipse 2025-09
+Java JDK 21.0.9
